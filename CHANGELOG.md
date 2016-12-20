@@ -12,7 +12,8 @@ None
 None
 
 #### Bugfixes
-None
+- Fix `cornerSide` radius in conjunction with shadow mask.
+[#375](https://github.com/IBAnimatable/IBAnimatable/issues/375)
 
 ### [3.1.2](https://github.com/IBAnimatable/IBAnimatable/releases/tag/3.1.2)
 
@@ -337,5 +338,3 @@ None
 ### [1.0](https://github.com/IBAnimatable/IBAnimatable/releases/tag/1.0)
 
 - Initial release
-
-
