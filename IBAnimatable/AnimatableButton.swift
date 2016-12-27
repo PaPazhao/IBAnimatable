@@ -11,6 +11,7 @@ import UIKit
   @IBInspectable open var cornerRadius: CGFloat = CGFloat.nan {
     didSet {
       configureCornerRadius()
+      configureBorder()
       configureMaskShadow()
     }
   }
@@ -18,6 +19,7 @@ import UIKit
   open var cornerSides: CornerSides  = .AllSides {
     didSet {
       configureCornerRadius()
+      configureBorder()
       configureMaskShadow()
     }
   }
